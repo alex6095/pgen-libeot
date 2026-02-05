@@ -3,9 +3,14 @@
 **/.deps/
 **/.libs/
 /autom4te.cache/
+/Makefile
+/config.h
 /config.log
 /config.status
 /stamp-h1
+/libtool
+/libeot.pc
+/eot2ttf
 
 # Objects/libraries
 *.o
