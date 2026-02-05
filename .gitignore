@@ -1,28 +1,22 @@
-.libs/
-_libs/
-.deps/
-*/.libs/
-*/_libs/
-*/.deps/
+# Autotools build artifacts
+**/.dirstamp
+**/.deps/
+**/.libs/
+/autom4te.cache/
+/config.log
+/config.status
+/stamp-h1
+
+# Objects/libraries
 *.o
 *.lo
 *.la
-*.pc
-*.tab.c
-Makefile
-config.h
-config.cache
-config.log
-config.status
-config.lt
-stamp-h1
-libtool
-eot2ttf
-so_locations
-cscope.*
-TAGS
-ID
-GTAGS
-GRTAGS
-GSYMS
-GPATH
+*.a
+*.so*
+*.dylib
+*.dll
+*.exe
+*.obj
+
+# Misc build logs
+*.log
